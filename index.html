@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Linux</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="./">Core Linux</a></h1>
+        <input type="checkbox" id="menu" class="menu-toggle">
+        <label for="menu" class="menu-button" aria-label="Menu">&#9776;</label>
+        <nav>
+            <a href="./">Home</a>
+            <a href="https://github.com/lordhck/core">Source</a>
+            <a href="https://pkgs.lordhck.com">Packages</a>
+        </nav>
+    </header>
+
+    <main>
+<p>A minimal Linux distribution built from the ground up.</p>
+<p>The version <strong>0.1.0</strong> is not yet released.</p>
+<h2>Build</h2>
+<p>Clone the <a href="https://github.com/lordhck/core">Source code</a> from Github.</p>
+<pre><code class="language-bash">git clone --recursive https://github.com/lordhck/core
+cd core/
+
+make
+make run
+</code></pre>
+<p>Log in as <code>root</code> without a password.</p>
+    </main>
+
+    <footer>
+        <p>Core Linux &middot; MIT License &middot; Version: <a href="https://github.com/lordhck/corelinux/commit/0349119">0349119</a></p>
+    </footer>
+</body>
+</html>
