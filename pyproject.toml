@@ -1,0 +1,12 @@
+[project]
+name = "corelinux-website"
+version = "0.1.0"
+description = "The Core Linux website"
+requires-python = ">=3.12"
+dependencies = [
+    "jinja2",
+    "markdown",
+]
+
+[tool.uv]
+package = false
